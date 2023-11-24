@@ -65,7 +65,7 @@ describe("ShoppingCart", () => {
     cart.addItem(product1, 2);
     cart.addItem(product2, 1);
 
-    expect(cart.getInfo()).toBe("Product: Product 1 , Price: 10 - Quantity: 2\nProduct: Product 2 - Price: 20 - Quantity: 1\n");
+    expect(cart.getInfo()).toBe("Product: Product 1 - Price: 10 - Quantity: 2\nProduct: Product 2 - Price: 20 - Quantity: 1\n");
   });
 });
 
